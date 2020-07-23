@@ -14,6 +14,7 @@ lazy val demo = (project in file("demo"))
     name := "demo",
     libraryDependencies ++= Seq(
       "com.softwaremill.sttp.client" %% "async-http-client-backend-future" % "2.2.2",
+      "org.scalaj"      %% "scalaj-http"  % "2.4.2",
     )
   )
 
